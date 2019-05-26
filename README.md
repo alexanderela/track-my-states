@@ -1,68 +1,115 @@
+# Track My States
+Track My States is a responsive web application designed to help users keep track of states they've visited, lived in, and want to visit.
+
+## Deployed App
+[Track My States Front End]()
+
+[Track My States Back End]()
+
+#### Back End Repo
+[Track My States Back End]()
+
+## Getting Started
+This is a general guide to setting up a Recharge API development environment on your local machine.
+
+### Dependencies
+* React.js
+* Redux
+* React Router
+* Sass
+* Node.js
+* Express
+* Knex.js
+* Jest and Enzyme for testing
+* See package.json for a list of required modules
+
+
+### Developers:
+#### Get the app on your local machine
+* Fork this repo using the `Fork` button in the upper right corner of this page.
+
+* `Clone` your fork onto your local machine
+```
+git clone https://github.com/YOUR_GITHUB_USERNAME_HERE/track-my-states
+```
+
+* Jump into that directory on your local machine
+```
+cd track-my-states
+```
+
+* Add an upstream remote that points to the main repo:
+```
+git remote add upstream https://github.com/alexanderela/track-my-states.git
+```
+
+* Fetch the latest version of `master` from `upstream`
+```
+git fetch upstream master
+```
+
+
+#### Install and Start Server
+
+* `npm install` all dependencies.
+
+* `npm start` the development server.
+
+
+### Contributing
+This guide assumes that the git remote name of the main repo is `upstream` and that **your** fork is named `origin`.
+
+Create a new branch on your local machine to make your changes against (based on `upstream/master`):
+```
+git checkout -b branch-name-here --no-track upstream/master
+```
+We recommend naming your branch using the following convention:
+```
+#(issueNumber)-feature-name-your-name
+ex: 36-middleware-error-handling-alex
+```
+
+#### Contribute using GitHub Issues
+* Click on the `Issues` tab at the top left of this page
+* Choose one and work on your local machine to fix it  
+  - We recommend naming your branch according to the above convention  
+  - Use TDD as much as possible 
+  - Once the tests are passing, you can commit your changes. See [Making a great commit for more tips](https://github.com/openfoodfoundation/openfoodnetwork/wiki/Making-a-great-commit).  
+```
+git add .
+git commit -m "Add a concise commit message describing your change here"
+```
+  - Before pushing to your fork, rebase your commits against the upstream master branch
+```
+git pull --rebase upstream master
+```
+  - Push your changes to a branch on your fork:
+```
+git push origin branch-name-here
+```
+
+#### Submitting a Pull Request
+* Create a Pull Request (PR) to this repo's master using GitHub's UI
+* Fill in the requested information re: what you worked on
+* Keep your PR small, with a single focus
+
+## Technologies Used:
+- React.js
+- Redux
+- React Router
+- Sass
+- Node.js
+- Express
+- Knex.js
+- Heroku
+- Travis CI
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Images:
+### Home Page
+![Home Page image](./public/assets/.png "Home Page")
 
-In the project directory, you can run:
+### Wireframe
+![Wireframe image](./public/assets/wireframe.png "Wireframe")
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## This README relied upon Open Food Source's extensive and excellent [Set Up](https://github.com/openfoodfoundation/openfoodnetwork/blob/master/GETTING_STARTED.md) and [Contibution](https://github.com/openfoodfoundation/openfoodnetwork/blob/master/CONTRIBUTING.md) docs.
