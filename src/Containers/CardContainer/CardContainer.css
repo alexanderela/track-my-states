@@ -1,0 +1,7 @@
+.CardContainer {
+  background-color: grey;
+  grid-area: CardContainer;
+  height: 30rem;
+  margin: 2rem auto;
+  width: 85%;	
+}
