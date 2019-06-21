@@ -1,6 +1,52 @@
 # Track My States
 Track My States is a responsive web application designed to help users keep track of states they've visited, lived in, and want to visit.
 
+## Project Objectives
+  * Learn GIS fundamentals through incorporating 3rd party mapping data from Esri's ArcGIS JavaScript API.
+  * Integrate previously learned technologies and best practices, including:
+  	* Test-driven development
+  	* Agile methodologies
+  	* React/Redux
+  	* REST API construction in Node/Express/Knex and PostgreSQL
+  	* User Sign In/Sign Out functionality using Redux and PostgreSQL
+
+## Iterations
+
+### Iteration 0: Create wireframes and plan main functionality
+
+### Iteration 1: Create RESTful API for Users with corresponding States and Visited/Lived-in statuses
+	* Create Users database with user login information and references to states visited and lived in
+	* Create States database with unique id for each state
+
+### Iteration 2: Sign In / Sign Out Functionality
+  * Be able to sign in on page `/login` and redirect user to `/`
+    * Flash "Email and Password do not match" - if password is incorrect
+  * Ability to create a user.
+    * Flash "Email has already been used" - if email has been taken
+  * The user has the ability to sign out. 
+
+### Iteration 3: Basic display with mock content
+  * Upon user sign in, page should display list of all states with option to toggle selection of each upon click.
+  * Upon click of state, state should show active status and display card pertaining to that state.
+  * Each state should have image of flag, state name 5 stars for rating, buttons for 'visited', 'lived in', and 'want to go', and a 'favorites' button. 
+  
+### Iteration 4: State card details
+  * Each state card should update its rating based on number of stars clicked.
+  * Upon clicking any of the 3 main buttons, status should update in database.
+  * If the user is not signed in and clicks on a favorite button the user will be prompted with the request to create an account.
+  * Validate favorites before adding to db. Aka does that user already have the movie stored as favorites. There should be no duplicates. 
+  * If the user visits `/favorites` they should see a list of all their favorite states.
+  * The user should be able to delete favorites from `/favorites` or `/`.
+  * Favorite states should have a visual indication on `/`.
+
+### Iteration 5: Map
+  * Insert image of map on each user's page that defaults to Washington DC.
+  * Upon clicking a particular state's card, the map should zoom in to focus on that state's capital city.
+
+### Extensions:
+  * A user stays signed in after refreshing the page. 
+  * Should only take real email addresses
+
 ## Deployed App
 [Track My States Front End]()
 
@@ -13,6 +59,7 @@ Track My States is a responsive web application designed to help users keep trac
 This is a general guide to setting up a Recharge API development environment on your local machine.
 
 ### Dependencies
+* Esri's ArcGIS JavaScript API
 * React.js
 * Redux
 * React Router
