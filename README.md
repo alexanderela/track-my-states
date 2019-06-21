@@ -1,5 +1,5 @@
 Project Kanban
-[![Zenhub Kanban logo](./public/assets/zenhub-white-over-purple-smaller.png "Zenhub Kanban logo")](https://app.zenhub.com/workspaces/track-my-states-5d0d5159d107507c0be3d349/board?repos=188627017)
+[![Zenhub Kanban logo](./public/assets/zenhub-white-over-purple-small.png "Zenhub Kanban logo")](https://app.zenhub.com/workspaces/track-my-states-5d0d5159d107507c0be3d349/board?repos=188627017)
 
 # Track My States
 Track My States is a responsive web application designed to help users keep track of states they've visited, lived in, and want to visit.
