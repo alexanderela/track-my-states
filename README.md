@@ -14,23 +14,31 @@ Track My States is a responsive web application designed to help users keep trac
 
 ### Iteration 0: Create wireframes and plan main functionality
 
-### Iteration 1: Create RESTful API for Users with corresponding States and Visited/Lived-in statuses
-	* Create Users database with user login information and references to states visited and lived in
-	* Create States database with unique id for each state
+### Iteration 1: Basic elements
+  * Add components and containers that display all foundational elements on page with no specific content.
 
-### Iteration 2: Sign In / Sign Out Functionality
+### Iteration 2: Create RESTful API for Users with corresponding States and Visited/Lived-in statuses
+  * Create Users database with user login information and references to states visited and lived in.
+	* Create States database with unique id for each state.
+
+### Iteration 3: Sign In / Sign Out Functionality
   * Be able to sign in on page `/login` and redirect user to `/`
     * Flash "Email and Password do not match" - if password is incorrect
   * Ability to create a user.
     * Flash "Email has already been used" - if email has been taken
   * The user has the ability to sign out. 
 
-### Iteration 3: Basic display with mock content
+### Iteration 4: Basic display with mock content
   * Upon user sign in, page should display list of all states with option to toggle selection of each upon click.
   * Upon click of state, state should show active status and display card pertaining to that state.
-  * Each state should have image of flag, state name 5 stars for rating, buttons for 'visited', 'lived in', and 'want to go', and a 'favorites' button. 
+  * Each state should have: 
+  	* Image of flag
+  	* State name 
+  	* 5 stars for rating
+  	* Buttons for 'visited', 'lived in', and 'want to go' 
+  	* 'Favorites' button
   
-### Iteration 4: State card details
+### Iteration 5: State card details
   * Each state card should update its rating based on number of stars clicked.
   * Upon clicking any of the 3 main buttons, status should update in database.
   * If the user is not signed in and clicks on a favorite button the user will be prompted with the request to create an account.
@@ -39,7 +47,7 @@ Track My States is a responsive web application designed to help users keep trac
   * The user should be able to delete favorites from `/favorites` or `/`.
   * Favorite states should have a visual indication on `/`.
 
-### Iteration 5: Map
+### Iteration 6: Map
   * Insert image of map on each user's page that defaults to Washington DC.
   * Upon clicking a particular state's card, the map should zoom in to focus on that state's capital city.
 
