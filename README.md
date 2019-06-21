@@ -1,4 +1,4 @@
-Project Kanban  
+*Project Kanban*  
 [![Zenhub Kanban logo](./public/assets/zenhub-white-over-purple-smaller.png "Zenhub Kanban logo")](https://app.zenhub.com/workspaces/track-my-states-5d0d5159d107507c0be3d349/board?repos=188627017)
 
 # Track My States
