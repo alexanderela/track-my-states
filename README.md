@@ -50,7 +50,7 @@ Track My States is a responsive web application designed to help users keep trac
   * The user should be able to delete favorites from `/favorites` or `/`.
   * Favorite states should have a visual indication on `/`.
 
-### Iteration 6: Map
+### Iteration 6: Mapping Features
   * Insert image of map on each user's page that defaults to Washington DC.
   * Upon clicking a particular state's card, the map should zoom in to focus on that state's capital city.
 
