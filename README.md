@@ -21,8 +21,8 @@ Track My States is a responsive web application designed to help users keep trac
   * Add components and containers that display all foundational elements on page with no specific content.
 
 ### Iteration 2: Insert basic map
-  * Insert image of map on each user's page that defaults to Washington DC.
-  * Upon clicking a particular state's card, the map should zoom in to focus on that state's capital city.
+  * Pull functional map from Esri's ArcGIS JavaScript API.
+  * Display map in basic element.
   
 ### Iteration 3: Create RESTful API for Users with corresponding States and Visited/Lived-in statuses
   * Create Users database with user login information and references to states visited and lived in.
