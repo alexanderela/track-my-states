@@ -1,0 +1,7 @@
+.StateList {
+  background-color: #f0f;
+  grid-area: StateList;
+  height: 30rem;
+  margin: 2rem;
+  width: 20rem;
+}

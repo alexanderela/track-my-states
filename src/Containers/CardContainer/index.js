@@ -1,10 +1,18 @@
 import React from 'react';
 import './CardContainer.css';
+import Card from '../Card';
 
-const CardContainer = (props) => {
+const CardContainer = ({ usStates }) => {
+
+	const states = usStates.map(state => {
+			return <Card usState={state} />
+		})
+
+	
+
 	return (
 		<div className='CardContainer'>
-			<h3>CardContainer</h3>
+			{ states }
 		</div>
 	)
 }

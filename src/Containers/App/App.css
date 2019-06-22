@@ -1,14 +1,14 @@
 .App {
+  display: grid;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
-  text-align: center;
-  display: grid;
   grid-template-columns: 20rem 1fr;
   grid-template-areas: 
     'header header header header header'
-    'StateList CardContainer CardContainer CardContainer CardContainer'
+    'StateList CardContainer CardContainer CardContainer MapComponent'
     'footer footer footer footer footer';
+  text-align: center;
 }
 
 .App-header-container {

@@ -1,0 +1,9 @@
+.MapComponent {
+	background-color: #0000CD;
+	color: white;
+	grid-area: MapComponent;
+  height: 17rem;
+  justify-items: center;
+  margin: 2rem 4rem 0 0;
+  width: 17rem;
+}
