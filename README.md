@@ -20,7 +20,7 @@ Track My States is a responsive web application designed to help users keep trac
 ### Iteration 1: Basic elements
   * Add components and containers that display all foundational elements on page with no specific content.
 
-### Iteration 2: Mapping Features
+### Iteration 2: Insert basic map
   * Insert image of map on each user's page that defaults to Washington DC.
   * Upon clicking a particular state's card, the map should zoom in to focus on that state's capital city.
   
@@ -28,7 +28,7 @@ Track My States is a responsive web application designed to help users keep trac
   * Create Users database with user login information and references to states visited and lived in.
 	* Create States database with unique id for each state.
 
-### Iteration 4: Sign In / Sign Out Functionality
+### Iteration 4: Sign In / Sign Out functionality
   * Be able to sign in on page `/login` and redirect user to `/`
     * Flash "Email and Password do not match" - if password is incorrect
   * Ability to create a user.
@@ -53,6 +53,10 @@ Track My States is a responsive web application designed to help users keep trac
   * If the user visits `/favorites` they should see a list of all their favorite states.
   * The user should be able to delete favorites from `/favorites` or `/`.
   * Favorite states should have a visual indication on `/`.
+  
+### Iteration 7: Specific mapping features
+  * Insert image of map on each user's page that defaults to Washington DC.
+  * Upon clicking a particular state's card, the map should zoom in to focus on that state's capital city.
 
 ### Extensions:
   * A user stays signed in after refreshing the page. 
