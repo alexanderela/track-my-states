@@ -1,33 +1,39 @@
 .App {
+  display: grid;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 20rem 1fr;
+  grid-template-areas: 
+    'header header header header header'
+    'StateList CardContainer CardContainer CardContainer MapComponent'
+    'footer footer footer footer footer';
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
+.App-header-container {
+  align-items: center;
   background-color: #282c34;
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  grid-area: header;
+  justify-content: center;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-footer-container {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  grid-area: footer;
+  height: 8rem;
+  justify-content: center;  
 }

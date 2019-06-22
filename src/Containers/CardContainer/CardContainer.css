@@ -1,0 +1,10 @@
+.CardContainer {
+  background-color: grey;
+	display: grid;
+  grid-area: CardContainer;
+  grid-template-columns: repeat(4, 1fr);
+  height: 30rem;
+  justify-items: center;
+	margin: 2rem 0 0 4rem;
+  width: 85%;	
+}
