@@ -5,7 +5,7 @@ import Card from '../Card';
 const CardContainer = ({ usStates }) => {
 
 	const states = usStates.map(state => {
-			return <Card usState={state} />
+			return <Card usState={state} key={state}/>
 		})
 
 	
