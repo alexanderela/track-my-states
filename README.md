@@ -26,7 +26,13 @@ Track My States is a responsive web application designed to help users keep trac
   
 ### Iteration 3: Create RESTful API for Users with corresponding States and Visited/Lived-in statuses
   * Create Users database with user login information and references to states visited and lived in.
-	* Create States database with unique id for each state.
+  * Create States database with unique id for each state.
+  	* Create endpoints for:
+		* `GET` View all users
+		* `POST` Log user in
+		* `POST` Add new user
+		* `GET` View all favorite states for particular user
+		* `DELETE` Delete state from particular user's favorites list
 
 ### Iteration 4: Sign In / Sign Out functionality
   * Be able to sign in on page `/login` and redirect user to `/`
