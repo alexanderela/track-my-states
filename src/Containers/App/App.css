@@ -6,9 +6,10 @@
   grid-template-columns: 20rem 1fr;
   grid-template-areas: 
     'header header header header header'
-    'StateList CardContainer CardContainer CardContainer MapComponent'
+    'StateList CardContainer CardContainer CardContainer Map'
     'footer footer footer footer footer';
   text-align: center;
+  width: 100%;
 }
 
 .App-header-container {
@@ -36,4 +37,14 @@
   grid-area: footer;
   height: 8rem;
   justify-content: center;  
+}
+
+.Map {
+  background-color: #0000CD;
+  color: white;
+  grid-area: Map;
+  height: 17rem;
+  justify-items: center;
+  margin: 2rem 4rem 0 0;
+  width: 17rem;
 }
