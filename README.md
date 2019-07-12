@@ -39,6 +39,7 @@ Track My States is a responsive web application designed to help users keep trac
   * Ability to create a user.
     * Flash "Email has already been used" - if email has been taken
   * The user has the ability to sign out. 
+  * User password should be encrypted in database.
 
 ### Iteration 5: Basic display with mock content
   * Create States database with unique id for each state.
